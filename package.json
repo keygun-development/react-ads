@@ -1,0 +1,40 @@
+{
+  "name": "react-ads",
+  "version": "0.1.0",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "eslint . --ext .ts,.tsx",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": ["react", "ads", "adslot", "adsense", "advertising", "react-component"],
+  "author": "Keagan Mulder <keaganmulder1@gmail.com>",
+  "license": "MIT",
+  "description": "A React package for rendering ad slots with multiple ad networks like AdSense or custom networks.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keygun-development/react-ads.git"
+  },
+  "bugs": {
+    "url": "https://github.com/keygun-development/react-ads/issues"
+  },
+  "homepage": "https://github.com/keygun-development/react-ads#readme",
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.2",
+    "eslint": "^9.34.0",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.3"
+  }
+}
