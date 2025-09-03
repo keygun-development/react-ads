@@ -1,6 +1,7 @@
 {
-  "name": "react-ads",
+  "name": "@quickdevelopment/react-ads",
   "version": "0.1.0",
+  "private": false,
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
